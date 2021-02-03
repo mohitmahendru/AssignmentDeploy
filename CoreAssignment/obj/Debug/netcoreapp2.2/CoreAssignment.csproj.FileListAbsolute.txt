@@ -1,0 +1,4 @@
+C:\Users\DELL PC\source\repos\CoreAssignment\CoreAssignment\obj\Debug\netcoreapp2.2\CoreAssignment.csprojAssemblyReference.cache
+C:\Users\DELL PC\source\repos\CoreAssignment\CoreAssignment\obj\Debug\netcoreapp2.2\CoreAssignment.AssemblyInfoInputs.cache
+C:\Users\DELL PC\source\repos\CoreAssignment\CoreAssignment\obj\Debug\netcoreapp2.2\CoreAssignment.AssemblyInfo.cs
+C:\Users\DELL PC\source\repos\CoreAssignment\CoreAssignment\obj\Debug\netcoreapp2.2\CoreAssignment.csproj.CoreCompileInputs.cache
