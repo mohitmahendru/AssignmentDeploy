@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace CoreAssignment.Controllers
 {
+    [Authorize(Roles = UserRole.Admin)]
     [Route("api/[controller]")]
     [ApiController]
     public class BlogController : ControllerBase
@@ -58,7 +60,7 @@ namespace CoreAssignment.Controllers
         {
             if (blog == null)
             {
-                return BadRequest("Employee is null.");
+                return BadRequest("Blog is null.");
             }
             _dataRepository.Add(blog);
             return CreatedAtRoute(
