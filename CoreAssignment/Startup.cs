@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace CoreAssignment
 {
@@ -28,6 +29,10 @@ namespace CoreAssignment
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+           
+            services.AddDbContext<ApplicationContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:BlogDB"].ToString(), options => options.EnableRetryOnFailure(4, new TimeSpan(0, 0, 7), null)));
+          
+            services.AddControllers();
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -35,14 +40,14 @@ namespace CoreAssignment
             })
             .AddJwtBearer(options =>
             {
-                options.RequireHttpsMetadata = false;
-                options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+                options.TokenValidationParameters = new TokenValidationParameters
                 {
+                    ValidateIssuerSigningKey = true,
                     ValidateIssuer = true,
                     ValidateAudience = true,
-                    ValidAudience = Configuration["JWT:Audience"],
-                    ValidIssuer = Configuration["JWT:Issuer"],
-                    IssuerSigningKey =  new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:Secret"]))
+                    ValidAudience = Configuration["JWTTokens:Audience"],
+                    ValidIssuer = Configuration["JWTTokens:Issuer"],
+                    IssuerSigningKey =  new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWTTokens:Secret"]))
                 };
             });
                 
@@ -50,7 +55,8 @@ namespace CoreAssignment
            
             services.AddScoped<IDataRepository<Blog>, BlogManager>();
             services.AddScoped<IDataRepository<User>, UserManager>();
-            services.AddControllers();
+            services.AddSingleton(Configuration);
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

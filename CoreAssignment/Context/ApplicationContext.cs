@@ -10,10 +10,11 @@ namespace CoreAssignment
     public class ApplicationContext : DbContext
     {
         private static IConfiguration _configuration;
-        private string connectionString = _configuration.GetValue<string>("ConnectionString:BlogDB");
+        private string connectionString;
         public ApplicationContext(DbContextOptions options, IConfiguration configuration) : base(options)
         {
             _configuration = configuration;
+            connectionString = _configuration.GetValue<string>("ConnectionStrings:BlogDB");
         }
 
         public DbSet<Blog> Blogs { get; set; }
