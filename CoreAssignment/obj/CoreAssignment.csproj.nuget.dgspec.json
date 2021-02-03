@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL PC\\source\\repos\\CoreAssignment\\CoreAssignment\\CoreAssignment.csproj": {}
+    "C:\\CoreAssignment\\AssignmentDeploy\\CoreAssignment\\CoreAssignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL PC\\source\\repos\\CoreAssignment\\CoreAssignment\\CoreAssignment.csproj": {
+    "C:\\CoreAssignment\\AssignmentDeploy\\CoreAssignment\\CoreAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL PC\\source\\repos\\CoreAssignment\\CoreAssignment\\CoreAssignment.csproj",
+        "projectUniqueName": "C:\\CoreAssignment\\AssignmentDeploy\\CoreAssignment\\CoreAssignment.csproj",
         "projectName": "CoreAssignment",
-        "projectPath": "C:\\Users\\DELL PC\\source\\repos\\CoreAssignment\\CoreAssignment\\CoreAssignment.csproj",
+        "projectPath": "C:\\CoreAssignment\\AssignmentDeploy\\CoreAssignment\\CoreAssignment.csproj",
         "packagesPath": "C:\\Users\\DELL PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL PC\\source\\repos\\CoreAssignment\\CoreAssignment\\obj\\",
+        "outputPath": "C:\\CoreAssignment\\AssignmentDeploy\\CoreAssignment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,10 +40,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[2.2.0, )"

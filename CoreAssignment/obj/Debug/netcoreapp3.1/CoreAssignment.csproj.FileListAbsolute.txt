@@ -31,3 +31,36 @@ C:\Users\DELL PC\source\repos\CoreAssignment\CoreAssignment\obj\Debug\netcoreapp
 C:\Users\DELL PC\source\repos\CoreAssignment\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.dll
 C:\Users\DELL PC\source\repos\CoreAssignment\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.pdb
 C:\Users\DELL PC\source\repos\CoreAssignment\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.genruntimeconfig.cache
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\appsettings.json
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\CoreAssignment.exe
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\CoreAssignment.deps.json
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\CoreAssignment.runtimeconfig.json
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\CoreAssignment.runtimeconfig.dev.json
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\CoreAssignment.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\CoreAssignment.pdb
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.csprojAssemblyReference.cache
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.AssemblyInfoInputs.cache
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.AssemblyInfo.cs
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.csproj.CoreCompileInputs.cache
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.MvcApplicationPartsAssemblyInfo.cache
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\staticwebassets\CoreAssignment.StaticWebAssets.Manifest.cache
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\staticwebassets\CoreAssignment.StaticWebAssets.xml
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\scopedcss\bundle\CoreAssignment.styles.css
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.RazorTargetAssemblyInfo.cache
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.csproj.CopyComplete
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.dll
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.pdb
+C:\CoreAssignment\AssignmentDeploy\CoreAssignment\obj\Debug\netcoreapp3.1\CoreAssignment.genruntimeconfig.cache
