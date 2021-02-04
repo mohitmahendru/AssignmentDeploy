@@ -32,10 +32,13 @@ namespace CoreAssignment.Controllers
         public IActionResult Login([FromBody] Login login)
         {
             IEnumerable<User> users = _dataRepository.GetAll();
-            User user = users.FirstOrDefault(x => x.UserName == login.UserName);
+            User user = users.FirstOrDefault(x => x.UserName == login.UserName && x.Password == login.Password);
             if(user!=null)
             {
                 string accessToken = JWTTokenCreator.GetToken(GetClaims(user), _configuration);
+                return Ok(new {
+                    accessToken,
+                    user.Role});
             }
             return Unauthorized();
             

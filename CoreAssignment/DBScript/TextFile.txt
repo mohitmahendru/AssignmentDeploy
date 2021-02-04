@@ -4,6 +4,8 @@
 
 [UserName] [varchar](100) Not Null,
 
+[Password] [nvarchar] (100) Not Null,
+
 [Email] [nvarchar](500) Not Null,
 
 [Role] [varchar](100) Not Null,
